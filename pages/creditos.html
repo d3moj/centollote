@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Créditos – El Centollo</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <style>
+    .creditos-page {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 60px 30px 80px;
+      text-align: center;
+    }
+
+    .creditos-page h2 {
+      font-size: 1.4rem;
+      color: #111;
+      margin-bottom: 8px;
+      font-family: 'Georgia', serif;
+    }
+
+    .creditos-underline {
+      width: 50px;
+      height: 2px;
+      background: #999;
+      margin: 0 auto 30px;
+    }
+
+    .creditos-photo-wrap {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 22px;
+      border: 3px solid #c0392b;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .creditos-photo-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .creditos-photo-placeholder {
+      font-size: 3rem;
+      color: #ccc;
+    }
+
+    .creditos-name {
+      font-size: 1.3rem;
+      color: #111;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .creditos-role {
+      font-size: 0.9rem;
+      color: #c0392b;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 24px;
+    }
+
+    .creditos-desc {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 1.8;
+      max-width: 500px;
+      margin: 0 auto 40px;
+    }
+
+    .creditos-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .creditos-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <img src="../img/Logo.png" alt="El Centollo" class="site-logo"/>
+</header>
+
+<!-- NAVBAR -->
+<nav>
+  <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="ubicacion.html">Ubicación</a></li>
+    <li><a href="reservas.html">Reservas</a></li>
+    <li><a href="creditos.html" class="active">Créditos</a></li>
+  </ul>
+</nav>
+
+<!-- CONTENIDO -->
+<div class="creditos-page">
+  <h2>Créditos</h2>
+  <div class="creditos-underline"></div>
+
+  <div class="creditos-grid">
+
+    <div>
+      <div class="creditos-photo-wrap">
+        
+          
+          <img src="../img/felipe.png" alt="Felipe Mosquera Brochero"/>
+        
+        
+      </div>
+      <p class="creditos-name">Felipe Mosquera Brochero</p>
+      <p class="creditos-role">Desarrollador del sitio web</p>
+    </div>
+
+    <div>
+      <div class="creditos-photo-wrap">
+        
+          
+          <img src="../img/Yuliana.jpg" alt="Yuliana Fernanda Vasquez Martin"/>
+        
+        
+      </div>
+      <p class="creditos-name">Yuliana Fernanda Vasquez Martin</p>
+      <p class="creditos-role">Desarrolladora del sitio web</p>
+    </div>
+
+  </div>
+
+  <p class="creditos-desc" style="margin-top:30px;">
+    Este sitio web fue diseñado y desarrollado como parte de un proyecto académico,
+    aplicando HTML, CSS y JavaScript para crear una experiencia completa para el
+    restaurante ficticio "El Centollo".
+  </p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-icons-row">
+    <div class="footer-icon-item">
+      <span class="fi-icon">🏆</span>
+      <h4>Más de 100 años</h4>
+      <p>Desde 1911 trabajando con el mejor producto del mar</p>
+    </div>
+    <div class="footer-icon-item">
+      <span class="fi-icon">🐟</span>
+      <h4>El producto más fresco</h4>
+      <p>Pescados y mariscos directos de la lonja</p>
+    </div>
+    <div class="footer-icon-item">
+      <span class="fi-icon">🌿</span>
+      <h4>Ahumados artesanales</h4>
+      <p>Descubre nuestros procesos de ahumado</p>
+    </div>
+    <div class="footer-icon-item">
+      <span class="fi-icon">🏪</span>
+      <h4>La Tienda</h4>
+      <p>También te servimos en nuestra tienda física</p>
+    </div>
+    <div class="footer-icon-item">
+      <span class="fi-icon">⭐</span>
+      <h4>Seleccionamos por ti</h4>
+      <p>Despreocúpate y disfruta del mejor género del mar</p>
+    </div>
+  </div>
+  <div class="footer-bottom-bar">
+    <div class="footer-contact-info">
+      <span><span class="fc-icon">📍</span> Carrera 1 #93-50 Chicó Alto, Bogotá</span>
+      <span><span class="fc-icon">📞</span> Tel: (57) 316 690 0508</span>
+      <span><span class="fc-icon">✉️</span> servicioalcliente@elcentollo.com.co</span>
+    </div>
+    <div class="footer-socials">
+      <a href="#" class="soc-fb">f</a>
+      <a href="#" class="soc-tw">t</a>
+      <a href="#" class="soc-wa">w</a>
+      <a href="#" class="soc-tg">tg</a>
+      <a href="#" class="soc-sh">&#8679;</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
